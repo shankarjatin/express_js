@@ -10,4 +10,8 @@ app.get("/about" , function(request,response){
     response.send("this page is created by jatin shankar srivastava");
 });
 
+app.get("/hobbies" , function(request,response){
+    response.send("writing , filmography , reading");
+});
+
 app.listen(3000 , function(){console.log("server started on port 3000");});
