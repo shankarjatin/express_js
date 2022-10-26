@@ -3,5 +3,8 @@ const app = express();
 app.get("/" , function(request , response){
     response.send("<h1>Hello</h1>");
 }); 
+app.get("/contact" , function (request,response){
+    response.send("contact me at shankarjatin1005@gmail.com");
+});
 
 app.listen(3000 , function(){console.log("server started on port 3000");});
