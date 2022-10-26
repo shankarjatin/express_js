@@ -6,7 +6,7 @@ app.get("/" , function(request , response){
 app.get("/contact" , function (request,response){
     response.send("contact me at shankarjatin1005@gmail.com");
 });
-app.get("/about" ,function(request,response){
+app.get("/about" , function(request,response){
     response.send("this page is created by jatin shankar srivastava");
 });
 
